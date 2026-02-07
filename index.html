@@ -16,7 +16,7 @@ document.addEventListener('contextmenu', function(e) {
     return false;
 });
 
-// 禁止F12和开发者工具
+// 禁止F12和开发者工
 document.onkeydown = function(e) {
     if(e.keyCode == 123) return false;
     if(e.ctrlKey && e.shiftKey && e.keyCode == 73) return false;
